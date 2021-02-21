@@ -1,0 +1,46 @@
+.header {
+	background: #000;
+}
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+.header__top {
+	color: #969696;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 14px 0;
+}
+.header__top-contact {
+	display: flex;
+	justify-content: space-between;
+}
+.top__phone {
+
+}
+.top__phone-link {
+	color: #969696;
+}
+.top__phone-img {
+}
+.top__phone-text {
+}
+.top__contact-item {
+	border-right: 1px solid #969696;
+	padding: 0 15px;
+}
+.top__contact-item:nth-child(3) {
+	border-right: none;
+}
+.top__log {
+}
+.top__log-link {
+	color: #969696;
+}
+.top__log-img {
+	margin-right: 12px;
+}
+.top__log-text {
+
+}

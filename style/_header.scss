@@ -1,4 +1,4 @@
-.header {
+.header__inner {
 	background: #000;
 }
 .container {
@@ -16,15 +16,8 @@
 	display: flex;
 	justify-content: space-between;
 }
-.top__phone {
-
-}
 .top__phone-link {
 	color: #969696;
-}
-.top__phone-img {
-}
-.top__phone-text {
 }
 .top__contact-item {
 	border-right: 1px solid #969696;
@@ -33,14 +26,45 @@
 .top__contact-item:nth-child(3) {
 	border-right: none;
 }
-.top__log {
-}
 .top__log-link {
 	color: #969696;
 }
 .top__log-img {
 	margin-right: 12px;
 }
-.top__log-text {
-
+.header__bottom {
+	background: #0f0f0f;
+}
+.header__bottom-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__bottom-logo {
+	font-family: "Post No Bills Jaffna Bold";
+	font-size: 36px;
+	line-height: 54px;
+	color: #fff;
+}
+.header__bottom-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 300px;
+}
+.header__bottom-item {
+	padding: 31px 20px;
+	border: 1px solid transparent;
+	transition: all 0.5s;
+}
+.header__bottom-item:hover {
+	background: #1f1f1f;
+}
+.header__bottom-link {
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.header__bottom-basket {
+	margin-right: 45px;
 }

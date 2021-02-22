@@ -1,0 +1,46 @@
+.new {
+	background: #000;
+	text-align: center;
+	padding: 120px 0 150px;
+}
+.container {
+}
+.new__title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	color: #FFF;
+}
+.new__line {
+	margin-bottom: 81px;
+}
+.new__content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+.new__content-item {
+	margin-bottom: 40px;
+}
+.new__content-inner {
+	background: #191B1C;
+	margin-bottom: 25px;
+}
+.new__content-img {
+	padding: 55px 22px;
+}
+.new__content-title {
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+.new__content-text {
+	font-family: 'Playfair Display';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 21px;
+	color: #D0D0D0;
+}

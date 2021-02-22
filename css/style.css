@@ -27,6 +27,7 @@ html, body {
   width: 100%;
   font-size: 100%;
   font-family: 'PT Sans', sans-serif;
+  color: #FFF;
   line-height: 1;
   font-size: 14px;
   -ms-text-size-adjust: 100%;
@@ -146,7 +147,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Post No Bills Jaffna Bold";
   font-size: 36px;
   line-height: 54px;
-  color: #fff;
 }
 
 .header__bottom-list {
@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__bottom-link {
   line-height: 18px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #FFF;
 }
 
 .header__bottom-basket {
@@ -194,7 +194,6 @@ h1, h2, h3, h4, h5, h6 {
 .top__content {
   width: 730px;
   margin: 0 auto;
-  color: #FFF;
   text-align: center;
 }
 
@@ -223,4 +222,200 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   line-height: 150%;
   text-transform: uppercase;
+}
+
+.collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.collection__list {
+  background: #000;
+  padding: 93px 80px;
+  text-align: center;
+}
+
+.collecton__list-title {
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.collection__line {
+  height: 1px;
+  background-color: #fff;
+  width: 120px;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.collection__list-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider__item + .slider__item {
+  margin-left: 50px;
+}
+
+.slider__item-inner {
+  background: #191B1C;
+  margin-bottom: 25px;
+}
+
+.slider__item-img {
+  padding: 55px 22px;
+}
+
+.slider__item-title {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.slider__item-text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+}
+
+.collection__catalog {
+  background-image: url(../images/man.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 484px 252px 100px;
+  max-width: 880px;
+  text-align: center;
+}
+
+.collection__catalog-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.catalog__line {
+  margin-bottom: 30px;
+}
+
+.buttons {
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  display: block;
+  margin: 0 auto;
+}
+
+.collection2018 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+}
+
+.collection2018__content {
+  text-align: center;
+  background: #000;
+  padding: 100px 284px;
+}
+
+.collection2018__content-title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.collection2018__line {
+  margin-bottom: 40px;
+}
+
+.collection2018__content-text {
+  margin-bottom: 61px;
+  max-width: 471px;
+}
+
+.new {
+  background: #000;
+  text-align: center;
+  padding: 120px 0 150px;
+}
+
+.new__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  color: #FFF;
+}
+
+.new__line {
+  margin-bottom: 81px;
+}
+
+.new__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.new__content-item {
+  margin-bottom: 40px;
+}
+
+.new__content-inner {
+  background: #191B1C;
+  margin-bottom: 25px;
+}
+
+.new__content-img {
+  padding: 55px 22px;
+}
+
+.new__content-title {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.new__content-text {
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #D0D0D0;
 }

@@ -1,0 +1,82 @@
+.collection {
+	display: flex;
+	justify-content: center;
+	overflow:hidden;
+}
+.collection__list {
+	background: #000;
+	padding: 93px 80px;
+	text-align: center;
+}
+.collecton__list-title {
+	font-size: 36px;
+	line-height: 48px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.collection__line {
+	height: 1px;
+	background-color: #fff;
+	width: 120px;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+.collection__list-slider {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.slider__item+.slider__item  {
+	margin-left: 50px;
+}
+.slider__item-inner {
+	background: #191B1C;
+	margin-bottom: 25px;
+}
+.slider__item-img {
+	padding: 55px 22px;
+}
+.slider__item-title {
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+.slider__item-text {
+	font-family: "Playfair Display";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 21px;
+	color: #d0d0d0;
+}
+.collection__catalog {
+	background-image: url(../images/man.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 484px 252px 100px;
+	max-width: 880px;
+	text-align: center;
+}
+.collection__catalog-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.catalog__line {
+	margin-bottom: 30px;
+}
+.buttons {
+	font-size: 18px;
+	line-height: 23px;
+	letter-spacing: 0.1em;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 12px 28px;
+	border: 1px solid #ffffff;
+	background: transparent;
+	display: block;
+	margin: 0 auto;
+}

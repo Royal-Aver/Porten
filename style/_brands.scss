@@ -1,0 +1,22 @@
+.brands {
+	background: #0F0F0F;
+	text-align: center;
+	padding: 60px 0 80px;
+}
+.brands__title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.brands__line {
+	margin-bottom: 40px;
+}
+.brands__content {
+	display: flex;
+	justify-content: space-between;
+}
+.brands__img +.brands__img {
+	margin-left: 30px;
+}

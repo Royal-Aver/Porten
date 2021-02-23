@@ -22,7 +22,7 @@
 	line-height: 150%;
 }
 .form__categories {
-	max-width: 290px;
+	max-width: 270px;
 }
 
 .form__categories-titles {
@@ -39,15 +39,23 @@
 	color: #D0D0D0;
 }
 .form__subscribe {
-	max-width: 290px;
+	max-width: 320px;
 }
-
 .form__subscribe-text {
 	line-height: 150%;
 	margin-bottom: 37px;
 }
 .form__subscribe-input {
-	padding: 10px 124px 11px 15px;
+	padding: 10px 0 11px 15px;
+	color: #FFF;
 	background: rgba(255, 255, 255, 0.4);
-	
+}
+.form__subscribe-input::placeholder {
+	color: #969696;
+}
+.form__subscribe-btn {
+	letter-spacing: 0.05em;
+	color: #FFF;
+	padding: 10px 20px;
+	background: #0F0F0F;
 }

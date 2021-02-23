@@ -23,6 +23,12 @@
 	border-right: 1px solid #969696;
 	padding: 0 15px;
 }
+.top__phone-text {
+	transition: all 0.5s;
+}
+.top__phone-text:hover, .top__log-text:hover{
+	color: #FFF;
+}
 .top__contact-item:nth-child(3) {
 	border-right: none;
 }
@@ -31,6 +37,9 @@
 }
 .top__log-img {
 	margin-right: 12px;
+}
+.top__log-text {
+	transition: all 0.5s;
 }
 .header__bottom {
 	background: #0f0f0f;

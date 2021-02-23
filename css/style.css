@@ -115,6 +115,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
 }
 
+.top__phone-text {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.top__phone-text:hover, .top__log-text:hover {
+  color: #FFF;
+}
+
 .top__contact-item:nth-child(3) {
   border-right: none;
 }
@@ -125,6 +134,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .top__log-img {
   margin-right: 12px;
+}
+
+.top__log-text {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .header__bottom {
@@ -340,6 +354,10 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+.collection2018__img {
+  width: 50%;
+}
+
 .collection2018__content {
   text-align: center;
   background: #000;
@@ -483,7 +501,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form__categories {
-  max-width: 290px;
+  max-width: 270px;
 }
 
 .form__categories-titles {
@@ -508,7 +526,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form__subscribe {
-  max-width: 290px;
+  max-width: 320px;
 }
 
 .form__subscribe-text {
@@ -517,6 +535,48 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form__subscribe-input {
-  padding: 10px 124px 11px 15px;
+  padding: 10px 0 11px 15px;
+  color: #FFF;
   background: rgba(255, 255, 255, 0.4);
+}
+
+.form__subscribe-input::-webkit-input-placeholder {
+  color: #969696;
+}
+
+.form__subscribe-input:-ms-input-placeholder {
+  color: #969696;
+}
+
+.form__subscribe-input::-ms-input-placeholder {
+  color: #969696;
+}
+
+.form__subscribe-input::placeholder {
+  color: #969696;
+}
+
+.form__subscribe-btn {
+  letter-spacing: 0.05em;
+  color: #FFF;
+  padding: 10px 20px;
+  background: #0F0F0F;
+}
+
+.footer {
+  background: #0F0F0F;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 17px 10px;
+  color: #D0D0D0;
 }
